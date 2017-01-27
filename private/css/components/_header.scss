@@ -1,3 +1,19 @@
 header {
+    padding: 40px 0 40px 1em;
     
+    a {
+        font-weight:500;
+        font-size:40px;
+        font-family:arial, sans-serif;
+        
+        :hover {
+            text-decoration:underline;
+        }
+    }
+
+    p {
+        color:#999999;
+        font-weight:300;
+        font-size:13px;
+    }
 }
