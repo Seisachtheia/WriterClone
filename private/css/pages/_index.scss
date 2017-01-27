@@ -11,3 +11,11 @@ p {
     line-height: 30px;
     vertical-align: baseline;
 }
+
+.image-wrapper {
+    background-image: url('/images/first.png');
+    background-size: cover;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
