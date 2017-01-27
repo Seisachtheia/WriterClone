@@ -1,9 +1,9 @@
 header {
-    padding: 40px 0 40px 1em;
+    
     
     a {
-        font-weight:500;
-        font-size:40px;
+        font-weight:700;
+        font-size:45px;
         font-family:arial, sans-serif;
         
         :hover {
@@ -11,9 +11,26 @@ header {
         }
     }
 
-    p {
+    h3 {
         color:#999999;
         font-weight:300;
         font-size:13px;
+        font-family:Arial, sans-serif;
+        
+    }
+}
+
+.header-text-wrap {
+    padding: 40px 0 40px 1em;
+}
+
+ul {
+    padding-left: 1em;
+    width:auto;
+    
+    li{
+        display:inline-block;
+        padding:1em;
+        
     }
 }
