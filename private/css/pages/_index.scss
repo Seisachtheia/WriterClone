@@ -35,3 +35,33 @@ img {
         text-align: center;
     }
 }
+
+.bootstrap-wrap {
+    display:block;
+    margin: 0 auto 5px auto;
+    width:310px;
+    
+    img {
+        display:block;
+        margin: 0 auto;
+        max-width:100%;
+    }
+
+    p {
+        font-size: 10px;
+        text-align:center;
+        max-width:100%;
+    }
+}
+
+.body-job-list {
+
+    padding-left:40px;
+    margin-bottom:15px;
+    
+
+    li {
+        line-height:30px;
+        vertical-align: baseline;
+    }
+}
