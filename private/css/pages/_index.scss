@@ -24,6 +24,17 @@ img {
     margin:0 auto;
 }
 
+.standard-img-wrap {
+    max-width:610px;
+    display:block;
+    margin: 0 auto 5px auto;
+
+    img {
+        width:100%;
+    }
+}
+
+
 .istock-wrap {
 
     img {
@@ -65,3 +76,5 @@ img {
         vertical-align: baseline;
     }
 }
+
+
