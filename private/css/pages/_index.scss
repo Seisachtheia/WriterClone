@@ -1,5 +1,12 @@
 .page-index {
     margin-left:1em;
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.body-wrapper {
+    width:65%;
 }
 
 h1 {
@@ -12,10 +19,19 @@ p {
     vertical-align: baseline;
 }
 
-.image-wrapper {
-    background-image: url('/images/first.png');
-    background-size: cover;
-    height:auto;
-    margin-left:auto;
-    margin-right:auto;
+img {
+    display:block;
+    margin:0 auto;
+}
+
+.istock-wrap {
+
+    img {
+        max-width:100%;
+    }
+
+    p{
+        font-size:10px;
+        text-align: center;
+    }
 }
