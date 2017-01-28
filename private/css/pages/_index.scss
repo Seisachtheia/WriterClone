@@ -77,4 +77,15 @@ img {
     }
 }
 
+a:link, a:visited {
+    color: #428bca;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: underline;
+    color: #FF4800;
+}
