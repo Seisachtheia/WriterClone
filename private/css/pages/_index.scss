@@ -89,3 +89,16 @@ a:hover {
     text-decoration: underline;
     color: #FF4800;
 }
+
+.conclusion-box {
+    border-color: #eee;
+    background-color: #eee;
+    margin:1em 0em 1em 0;
+
+    p {
+        background-color: #dbdbdb;
+        padding: 9px 15px 9px 15px;
+        line-height:25px;
+    }
+
+}
