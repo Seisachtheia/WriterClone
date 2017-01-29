@@ -24,4 +24,102 @@ hr {
     }
 }
 
+.clear {
+    clear: both;
+}
 
+// GLOBAL ELEMENT DEFINITIONS
+
+span {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+a {
+    &:link, &:visited {
+        color: $color-2;
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        color: $color-3;
+    }
+}
+
+// WISIWYG STYLES OVERWRITE
+
+.wysiwyg {
+    h1 {
+        margin-bottom:14px;
+    }
+
+    h2 {}
+
+    h3 {}
+
+    h4 {}
+
+    h5 {}
+
+    h6 {}
+
+    p {
+        margin-bottom:1.2em;
+        line-height: 30px;
+        vertical-align: baseline;
+    }
+
+    a {}
+
+    ul {
+
+        padding-left:40px;
+        margin-bottom:15px;
+    }
+
+    li {
+        line-height:30px;
+        vertical-align: baseline;
+    }
+
+    img {
+        width:100%;
+    }
+
+    .standard-img-wrap {
+        max-width:300px;
+        display:block;
+        margin: 0 auto 5px auto;
+        border: 1px $color-1 solid;
+        padding:1em;
+
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .conclusion-box {
+        border-color: #eee;
+        background-color: #eee;
+        margin:1em 0em 1em 0;
+
+        p {
+            background-color: $color-1;
+            padding: 9px 15px 9px 15px;
+            line-height:25px;
+        }
+    }
+}

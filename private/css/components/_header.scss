@@ -8,7 +8,7 @@ header {
         font-size:45px;
         font-family:arial, sans-serif;
         
-        :hover {
+        &:hover {
             text-decoration:underline;
         }
     }
@@ -18,22 +18,22 @@ header {
         font-weight:300;
         font-size:13px;
         font-family:Arial, sans-serif;
-        
     }
-}
 
-.header-text-wrap {
-    padding: 40px 0;
-}
+    .header-text-wrap {
+        padding: 40px 0;
+    }
 
-.navi-bar {
-
-    width:auto;
-    margin-bottom:42px;
-        
+    .navi-bar {
+        width:auto;
+        margin-bottom:42px;
+        background-color: #dbdbdb;
+        padding-left:1em;
+            
         li{
             display:inline-block;
-            padding:1em 1em 1em 0;
-            
+            padding:1em 1em 1em 0; 
         }
+    }
+
 }

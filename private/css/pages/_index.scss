@@ -1,104 +1,53 @@
 .page-index {
-    margin-left:1em;
-    max-width:960px;
-    margin-left:auto;
-    margin-right:auto;
-}
 
-.body-wrapper {
-    width:65%;
-}
-
-h1 {
-    margin-bottom:14px;
-}
-
-p {
-    margin-bottom:1.2em;
-    line-height: 30px;
-    vertical-align: baseline;
-}
-
-img {
-    display:block;
-    margin:0 auto;
-}
-
-.standard-img-wrap {
-    max-width:610px;
-    display:block;
-    margin: 0 auto 5px auto;
-
-    img {
-        width:100%;
-    }
-}
-
-
-.istock-wrap {
-
-    img {
-        max-width:100%;
-    }
-
-    p{
-        font-size:10px;
-        text-align: center;
-    }
-}
-
-.bootstrap-wrap {
-    display:block;
-    margin: 0 auto 5px auto;
-    width:310px;
-    
-    img {
-        display:block;
+    .page-content {
+        max-width:960px;
         margin: 0 auto;
-        max-width:100%;
     }
 
-    p {
-        font-size: 10px;
-        text-align:center;
-        max-width:100%;
+    .body-wrapper {
+        max-width: 625px;
     }
-}
 
-.body-job-list {
+    .istock-wrap {
+        max-width:600px;
+        display:block;
+        margin: 0 auto 5px auto;
+        border: 1px $color-1 solid;
+        padding:1em;
 
-    padding-left:40px;
-    margin-bottom:15px;
-    
-
-    li {
-        line-height:30px;
-        vertical-align: baseline;
+        p {
+            font-size: 12px;
+            text-align:center;
+        }
     }
-}
 
-a:link, a:visited {
-    color: #428bca;
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
+    .about-author {
+        width:100%;
+        border:solid 1px $color-1;
+        padding:1em;
 
-a:hover {
-    text-decoration: underline;
-    color: #FF4800;
-}
+        .author-avatar {
+            display:block;
+            height:80px;
+            width:80px;
+            float:left;
+            background-image: url("/images/avatar.png");
+            margin-right: 5px;
+            border-radius:50%;
+        }
 
-.conclusion-box {
-    border-color: #eee;
-    background-color: #eee;
-    margin:1em 0em 1em 0;
+        .about-right-content {
+            float:right;
+            width: calc(100% - 95px);
+        }
 
-    p {
-        background-color: #dbdbdb;
-        padding: 9px 15px 9px 15px;
-        line-height:25px;
+        h4 {
+            font-size:16px;
+        }
+
+        p {
+        }
     }
 
 }
